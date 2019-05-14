@@ -36,7 +36,7 @@ public class Accountant_Panel extends Main_Panel {
 	 */
 	public Accountant_Panel() {
 		/**
-		 * Обращаемся к панели содержимого апплета и добавляем компонент (панель)
+		 * Обращаемся к панели содержимого графического окна и добавляем компонент (панель)
 		 */
 		getContentPane().add(panel, "Accountant");
 		/**
