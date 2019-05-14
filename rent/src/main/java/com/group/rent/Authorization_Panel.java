@@ -59,7 +59,7 @@ public class Authorization_Panel extends JFrame {
 	 */
 	public Authorization_Panel() {
 		/**
-		 * Обращаемся к панели содержимого апплета и задаем карточное размещение
+		 * Обращаемся к панели содержимого графического окна и задаем карточное размещение
 		 * компонентов на ней
 		 */
 		getContentPane().setLayout(new CardLayout());
@@ -73,7 +73,7 @@ public class Authorization_Panel extends JFrame {
 		 */
 		panel.setLayout(null);
 		/**
-		 * Обращаемся к панели содержимого апплета и добавляем компонент (панель)
+		 * Обращаемся к панели содержимого графического окна и добавляем компонент (панель)
 		 */
 		getContentPane().add(panel, "Auth");
 		/**
