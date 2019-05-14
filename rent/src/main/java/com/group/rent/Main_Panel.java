@@ -201,7 +201,7 @@ public abstract class Main_Panel extends JFrame {
 	 */
 	public Main_Panel() {
 		/**
-		 * Обращаемся к панели содержимого апплета и задаем карточное размещение
+		 * Обращаемся к панели содержимого графического окна и задаем карточное размещение
 		 * компонентов на ней
 		 */
 		getContentPane().setLayout(new CardLayout());
