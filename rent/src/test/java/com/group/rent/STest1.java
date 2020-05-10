@@ -5,7 +5,7 @@ package com.group.rent;
  */
 import static org.junit.Assert.*;
 
-public class Test7 {
+public class STest1 {
 
 	@org.junit.Test
 	public void test() {
@@ -13,11 +13,11 @@ public class Test7 {
 		 * Входными данными является метод, производящий расчета квартплаты и
 		 * предполагаемый результат данного расчета
 		 */
-		Calc a = new Calc(36, 68, 34, 65, 44, 80, 71, 51, 1, 78, 70, 99, 53);
+		Calc a = new Calc(17, 10, 23, 24, 56, 0, 34, 19, 1, 27.5, 25.43, 3.06, 7.1);
 		a.Calculate();
 		/**
 		 * Сравнение результата и ожидаемого значения
 		 */
-		assertEquals(String.valueOf(a.getitog()), "20170.0");
+		assertEquals(String.valueOf(a.getitog()), "1827.49");
 	}
 }
